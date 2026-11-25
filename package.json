@@ -1,0 +1,55 @@
+{
+  "name": "dsh-glass-backdrop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Glass backdrop — a wallpaper behind the DeepSeek Harness UI whose see-through level and frosted-glass blur you adjust by hand.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "theme",
+    "glass",
+    "glassmorphism",
+    "backdrop",
+    "wallpaper"
+  ],
+  "homepage": "https://github.com/panyz/dsh-glass-backdrop#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panyz/dsh-glass-backdrop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panyz/dsh-glass-backdrop/issues"
+  },
+  "author": "panyz",
+  "license": "MIT"
+}

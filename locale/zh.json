@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "玻璃背景",
+    "description": "在 Harness 界面后方铺一层壁纸；在设置里拖动滑块，手动调节背景透出程度与磨砂玻璃的模糊强度。"
+  },
+  "section": {
+    "label": "背景与玻璃"
+  },
+  "enable": {
+    "title": "玻璃背景",
+    "description": "在界面后方显示壁纸，面板变为半透明的磨砂玻璃。",
+    "label": "开启"
+  },
+  "wallpaper": {
+    "title": "壁纸",
+    "description": "界面后方的画面。",
+    "dusk": "暮色",
+    "aurora": "极光",
+    "abyss": "深海"
+  },
+  "visibility": {
+    "title": "背景可见度",
+    "description": "背景透过界面的程度。数值越高越通透，但会降低文字对比度。"
+  },
+  "blur": {
+    "title": "玻璃模糊",
+    "description": "玻璃蒙版的磨砂强度；为 0 时壁纸在面板后保持清晰。"
+  },
+  "reset": "恢复默认"
+}

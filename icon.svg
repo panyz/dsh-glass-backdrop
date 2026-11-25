@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Glass backdrop">
+  <defs>
+    <linearGradient id="gb-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0726"/>
+      <stop offset=".52" stop-color="#2a0b33"/>
+      <stop offset="1" stop-color="#5c1340"/>
+    </linearGradient>
+    <linearGradient id="gb-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".16"/>
+    </linearGradient>
+    <radialGradient id="gb-glow" cx=".78" cy=".86" r=".55">
+      <stop offset="0" stop-color="#ff5ca8" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ff5ca8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gb-amber" cx=".96" cy="1.04" r=".42">
+      <stop offset="0" stop-color="#ffa24a" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ffa24a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#gb-sky)"/>
+  <rect width="64" height="64" rx="14" fill="url(#gb-glow)"/>
+  <rect width="64" height="64" rx="14" fill="url(#gb-amber)"/>
+  <rect x="9" y="22" width="46" height="33" rx="9" fill="url(#gb-glass)" stroke="#ffffff" stroke-opacity=".55" stroke-width="1"/>
+  <path d="M16 33h22" stroke="#ffffff" stroke-opacity=".72" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M16 41h30" stroke="#ffffff" stroke-opacity=".42" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="49" cy="13" r="3.4" fill="#58e6d6" fill-opacity=".85"/>
+</svg>

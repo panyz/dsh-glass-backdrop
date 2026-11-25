@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Glass backdrop",
+    "description": "A wallpaper behind the Harness UI. Drag the sliders in Settings to set how much the background shows through and how soft the frosted glass is."
+  },
+  "section": {
+    "label": "Backdrop & glass"
+  },
+  "enable": {
+    "title": "Glass backdrop",
+    "description": "Puts a wallpaper behind the interface and turns the panels into translucent frosted glass.",
+    "label": "On"
+  },
+  "wallpaper": {
+    "title": "Wallpaper",
+    "description": "The artwork behind the interface.",
+    "dusk": "Dusk",
+    "aurora": "Aurora",
+    "abyss": "Abyss"
+  },
+  "visibility": {
+    "title": "Background visibility",
+    "description": "How much of the wallpaper shows through the interface. Higher values look more transparent but soften text contrast."
+  },
+  "blur": {
+    "title": "Glass blur",
+    "description": "Frosting strength of the glass mask. At 0 the wallpaper stays crisp behind the panels."
+  },
+  "reset": "Restore defaults"
+}
